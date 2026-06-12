@@ -1,0 +1,13 @@
+node_modules
+.env
+.env.local
+dist
+.next
+.turbo
+*.log
+coverage
+*.pen
+.impeccable
+site_screenshots
+CLAUDE.md
+.claude/

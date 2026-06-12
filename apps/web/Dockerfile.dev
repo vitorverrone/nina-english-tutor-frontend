@@ -1,0 +1,23 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY package.json package-lock.json* turbo.json tsconfig.base.json ./
+COPY apps/web/package.json ./apps/web/
+COPY packages/shared/package.json ./packages/shared/
+
+RUN npm install
+
+COPY packages/shared ./packages/shared
+COPY apps/web ./apps/web
+
+# Compile the shared workspace package so its main entry (dist/index.js) exists
+WORKDIR /app/packages/shared
+RUN npx tsc
+
+WORKDIR /app/apps/web
+
+EXPOSE 3000
+
+# Rebuild shared once on start and watch in background so changes propagate
+CMD sh -c "(cd /app/packages/shared && npx tsc) && (cd /app/packages/shared && npx tsc --watch --preserveWatchOutput &) && npm run dev"

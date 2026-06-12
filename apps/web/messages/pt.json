@@ -1,0 +1,629 @@
+{
+    "navbar": {
+        "subtitle": "Nina · Tutora IA",
+        "navHome": "Início",
+        "navInterview": "Entrevista",
+        "navWriting": "Escrita",
+        "navCulture": "Cultura",
+        "navDictogloss": "Dictogloss",
+        "openMenu": "Abrir menu",
+        "closeMenu": "Fechar menu",
+        "logout": "Sair",
+        "loggingOut": "Saindo...",
+        "navSettings": "Configurações"
+    },
+    "common": {
+        "back": "Voltar ao início",
+        "greeting": "Olá, {name}",
+        "appTitle": "English Tutor",
+        "appDescription": "Seu companheiro de idiomas com IA",
+        "tapToContinue": "Toque em um card para continuar",
+        "minutes": "minutos",
+        "topicLockedHint": "Complete o tópico atual primeiro"
+    },
+    "home": {
+        "streak": "Ofensiva",
+        "keepStreak": "Mantenha sua sequência ativa!",
+        "streakHint": "Dias seguidos",
+        "topicsCompleted": "Tópicos concluídos",
+        "reviewToday": "Revisões pendentes",
+        "activeVocab": "Vocabulário ativo",
+        "continueWhere": "Continue de onde parou",
+        "recurringErrors": "Erros frequentes",
+        "recentCultural": "Notas culturais recentes",
+        "seeAll": "Ver tudo",
+        "suggestedTopics": "Sugestões para você",
+        "focusPicker": {
+            "label": "Foco de hoje",
+            "hint": "Os tópicos abaixo serão baseados no seu objetivo"
+        },
+        "status": {
+            "not_started": "Não iniciado",
+            "in_progress": "Em andamento",
+            "completed": "Concluído"
+        },
+        "errorCategory": {
+            "subject-verb agreement": "Concordância",
+            "verb tense": "Tempo verbal",
+            "tense": "Tempo verbal",
+            "agreement": "Concordância",
+            "preposition": "Preposição",
+            "article": "Artigo",
+            "word_order": "Ordem das palavras",
+            "vocab": "Vocabulário",
+            "spelling": "Ortografia",
+            "pronunciation": "Pronúncia",
+            "listening": "Escuta",
+            "other": "Outros"
+        }
+    },
+    "chat": {
+        "preparing": "Preparando...",
+        "focusBadge": "Foco",
+        "you": "Você",
+        "nina": "Nina",
+        "typing": "Nina está digitando...",
+        "errorPrefix": "Erro",
+        "completedTitle": "Tópico concluído!",
+        "completedBody": "Você dominou esta sessão! Volte ao início para escolher o próximo tópico ou revisar o que praticou.",
+        "placeholder": "Digite sua resposta...",
+        "placeholderCompleted": "Lição finalizada",
+        "send": "Enviar",
+        "in_characterLabel": "🎭 No Personagem",
+        "coachLabel": "Nina Coach",
+        "culturalLabel": "🌍 Nota Cultural",
+        "drillLabel": "Prática",
+        "drillSend": "Enviar",
+        "drillPlaceholder": "sua resposta",
+        "reference": {
+            "openButton": "Ver referência",
+            "closeButton": "Fechar",
+            "grammar": {
+                "title": "Gramática",
+                "name": "Estrutura",
+                "whatItIs": "O que é",
+                "formula": "Estrutura/Fórmula",
+                "example": "Exemplo"
+            },
+            "situational": {
+                "title": "Situacional",
+                "contextLabel": "Contexto",
+                "phrase": "Frase",
+                "function": "Função",
+                "whenToUse": "Quando usar",
+                "example": "Exemplo",
+                "miniExchangeLabel": "Mudar exemplo",
+                "roleYou": "Você",
+                "roleOther": "Interlocutor"
+            }
+        }
+    },
+    "review": {
+        "title": "Sessão de Revisão",
+        "subtitle": "Usamos o algoritmo SM-2: sua avaliação ajusta o tempo até a próxima revisão.",
+        "allDoneTitle": "Revisão concluída!",
+        "allDoneText": "Você revisou {n} flashcards hoje. Pratique diariamente para fixar o vocabulário e corrigir seus erros.",
+        "noCardsTitle": "Nada para revisar agora",
+        "noCardsText": "Continue conversando com a Nina para gerar novos cards de vocabulário e gramática.",
+        "progress": "{done} / {total}",
+        "reviews": "revisão",
+        "vocabEyebrow": "Vocabulário",
+        "translationLabel": "Significado / Tradução",
+        "exampleLabel": "Exemplo de uso",
+        "vocabHint": "Tente lembrar o significado",
+        "errorEyebrow": "Erro · {category}",
+        "youWrote": "Você escreveu:",
+        "correctForm": "Forma correta",
+        "howDidYouDo": "Como foi seu desempenho?",
+        "ruleLabel": "Regra",
+        "reveal": "Revelar Resposta",
+        "grades": {
+            "forgot": {
+                "label": "Esqueci",
+                "sublabel": "Tentar amanhã"
+            },
+            "hard": {
+                "label": "Difícil",
+                "sublabel": "Exigiu esforço"
+            },
+            "good": {
+                "label": "Bom",
+                "sublabel": "Lembrei"
+            },
+            "easy": {
+                "label": "Fácil",
+                "sublabel": "Imediato"
+            }
+        },
+        "fillInPrompt": "Você consegue corrigir esta frase?",
+        "fillInPlaceholder": "Digite a versão corrigida...",
+        "fillInCheck": "Verificar",
+        "fillInNext": "Próximo card",
+        "fillInResultExact": "Perfeito! Resposta exata.",
+        "fillInResultPartial": "Quase! Boa tentativa.",
+        "fillInResultWrong": "Incorreto. Estude a correção."
+    },
+    "writing": {
+        "card": {
+            "title": "Escrita",
+            "subtitle": "Pratique com temas estilo IELTS e receba feedback detalhado",
+            "text": "Abrir espaço de trabalho"
+        },
+        "title": "Prática de Escrita",
+        "subtitle": "Escreva sobre temas do IELTS e receba uma avaliação técnica",
+        "noPrompts": "Nenhum tema configurado no servidor.",
+        "selectValue": "Escolha um tema",
+        "promptLabel": "Tema",
+        "taskLabel": "Enunciado",
+        "textLabel": "Seu texto (em inglês)",
+        "textPlaceholder": "Escreva aqui seu texto...",
+        "tooShort": "Escreva pelo menos 20 caracteres.",
+        "submit": "Enviar para avaliação",
+        "submitting": "Avaliando...",
+        "wordsAndChars": "{words} palavras · {chars} caracteres",
+        "previousTitle": "Envios anteriores",
+        "nothingYet": "Nada enviado ainda. Escreva acima para ver sua avaliação aqui.",
+        "overall": "Nota Geral",
+        "feedback": "Feedback",
+        "revisedNative": "Versão revisada (como um nativo diria)",
+        "viewOriginal": "Ver meu texto original",
+        "rubricTask": "Objetivo",
+        "rubricGrammar": "Gramática",
+        "rubricVocab": "Vocabulário",
+        "rubricCohesion": "Coesão"
+    },
+    "dictogloss": {
+        "card": {
+            "title": "Dictogloss",
+            "subtitle": "Drill diário de listening para escrita",
+            "text": "Iniciar sessão de hoje"
+        },
+        "title": "Dictogloss",
+        "subtitle": "Ouça 5 frases, reescreva de memória e receba correção imediata com diff por palavra.",
+        "instructions": "Use o áudio e reescreva cada frase de memória. Você pode repetir cada frase quantas vezes precisar.",
+        "playAll": "Tocar as 5",
+        "sentence": "Frase {n}",
+        "listenAgain": "Ouvir de novo",
+        "answerPlaceholder": "Reescreva a frase em inglês...",
+        "submit": "Corrigir respostas",
+        "checking": "Corrigindo...",
+        "score": "Precisão geral: {score}%",
+        "referenceLabel": "Referência",
+        "loadError": "Não foi possível carregar o dictogloss de hoje. Tente novamente.",
+        "genericError": "Não foi possível corrigir suas respostas agora.",
+        "generateButton": "Gerar minha sessão de hoje",
+        "generating": "Gerando frases...",
+        "generateError": "Não foi possível gerar a sessão. Tente novamente.",
+        "alreadyDone": "Você já completou o dictogloss de hoje. Volte amanhã!"
+    },
+    "cultural": {
+        "card": {
+            "title": "Cultura",
+            "subtitle": "Explore notas culturais extraídas das suas conversas",
+            "text": "Ver todas as notas"
+        },
+        "title": "Notas Culturais",
+        "description": "Expressões e hábitos que revelam como os nativos pensam e se comunicam.",
+        "emptyTitle": "Nenhuma nota cultural ainda",
+        "emptyText": "Suas notas aparecerão aqui conforme a Nina destacar diferenças culturais durante a prática.",
+        "tagLabel": {
+            "us_vs_uk": "EUA vs Reino Unido",
+            "register": "Formalidade",
+            "politeness": "Educação/Etiqueta",
+            "custom": "Costumes",
+            "idiom": "Expressão Idiomática",
+            "other": "Outros"
+        }
+    },
+    "onboarding": {
+        "welcome": "Bem-vindo ao English Tutor",
+        "chooseLanguage": "Escolha seu idioma nativo ou o idioma que preferir para começar.",
+        "testTitle": "Teste de nivelamento rápido",
+        "intro": "Algumas perguntas para identificarmos seu nível de inglês.",
+        "questionLabel": "{a} de {b}",
+        "textPlaceholder": "Responda em inglês...",
+        "fillPlaceholder": "Complete a frase:",
+        "choosePlaceholder": "Escolha a forma correta:",
+        "submit": "Enviar e Ver Meu Nível",
+        "submitting": "Calculando seu nível...",
+        "submitError": "Erro ao finalizar o nivelamento.",
+        "cefrLabel": "Nivelamento concluído",
+        "focusLabel": "Áreas de Foco",
+        "cta": "Começar a Aprender",
+        "goalStep": {
+            "title": "Qual seu objetivo com o inglês?",
+            "intro": "Escolha a área em que deseja focar agora.",
+            "options": {
+                "conversation": {
+                    "title": "Conversação",
+                    "text": "Praticar diálogos do dia a dia"
+                },
+                "grammar": {
+                    "title": "Gramática",
+                    "text": "Dominar regras e estruturas"
+                },
+                "vocabulary": {
+                    "title": "Vocabulário",
+                    "text": "Expandir seu repertório de palavras"
+                },
+                "exam": {
+                    "title": "Exames",
+                    "text": "Preparação para IELTS, TOEFL e outros"
+                },
+                "professional": {
+                    "title": "Profissional",
+                    "text": "Inglês para negócios e carreira"
+                }
+            }
+        }
+    },
+    "auth": {
+        "emailLabel": "E-mail",
+        "passwordLabel": "Senha",
+        "nameLabel": "Nome completo",
+        "login": {
+            "title": "Bom ver você de novo",
+            "subtitle": "Entre para continuar de onde parou",
+            "forgot": "Esqueceu sua senha?",
+            "submit": "Entrar",
+            "submitting": "Entrando...",
+            "switchQuestion": "Novo por aqui?",
+            "switchCta": "Criar uma conta"
+        },
+        "signup": {
+            "title": "Crie sua conta",
+            "subtitle": "Junte-se a milhares de estudantes",
+            "submit": "Criar Conta",
+            "submitting": "Criando conta...",
+            "switchQuestion": "Já tem uma conta?",
+            "switchCta": "Fazer login"
+        },
+        "verify": {
+            "title": "Verifique seu e-mail",
+            "subtitle": "Digite o código de 6 dígitos que enviamos para o seu e-mail.",
+            "subtitleEmail": "Digite o código de 6 dígitos enviado para {email}.",
+            "codeLabel": "Código de verificação",
+            "submit": "Verificar",
+            "submitting": "Verificando...",
+            "resend": "Reenviar código",
+            "resendLoading": "Enviando...",
+            "resendIn": "Reenviar em {seconds}s",
+            "resendSent": "Novo código enviado! Verifique sua caixa de entrada."
+        }
+    },
+    "promotion": {
+        "card": {
+            "eligibleTag": "Novo nível disponível",
+            "eligibleTitle": "Você está pronto para o nível {next} — Faça o exame de promoção",
+            "perfReadyTag": "Seu desempenho recente confirma",
+            "perfReadyTitle": "Você está pronto para {next} — Faça o exame de promoção"
+        },
+        "exam": {
+            "title": "Prove que você está pronto para o nível {target} com um exame de 30 a 40 questões.",
+            "intro": "Exame de Promoção",
+            "initializingExam": "Iniciando sistema de exame...",
+            "error": "Ops, ocorreu um erro",
+            "tryAgain": "Limpar e tentar novamente",
+            "requestNewExam": "Solicitar novo exame",
+            "questionTypes": "Múltipla escolha, preenchimento de lacunas e interpretação de texto",
+            "passThreshold": "Limite de aprovação",
+            "failMessage": "Se não passar, haverá um intervalo de 48 horas para a próxima tentativa.",
+            "startCta": "Começar Exame",
+            "progress": "Questão {current} de {total}",
+            "fillPlaceholder": "Digite a palavra que completa a frase",
+            "fillHint": "Apenas uma palavra.",
+            "previousButton": "Anterior",
+            "nextButton": "Próxima",
+            "reviewButton": "Revisar respostas",
+            "submitButton": "Finalizar exame",
+            "submitting": "Corrigindo...",
+            "confirmTitle": "Enviar agora?",
+            "confirmBody": "Você respondeu {answered} de {total} questões. Após enviar, não será possível alterar.",
+            "confirmCta": "Sim, enviar",
+            "cancel": "Cancelar",
+            "unansweredBadge": "Em branco",
+            "keyWordLabel": "Use a palavra (sem alterá-la):",
+            "reewriteSentenceLabel": "Reescreva a frase usando a palavra-chave, mantendo o mesmo sentido",
+            "kindLabel": {
+                "mc_grammar": "Gramática",
+                "cloze": "Complete a frase",
+                "mc_vocab": "Vocabulário",
+                "reading_comprehension": "Interpretação de Texto",
+                "sentence_transformation": "Reescrita",
+                "error_identification": "Identificar Erro",
+                "open_cloze_paragraph": "Completar Parágrafo"
+            },
+            "async": {
+                "generatingTitle": "Gerando seu exame...",
+                "generatingBody": "Estamos preparando questões personalizadas para seu nível. Isso pode levar alguns segundos. Você pode navegar pelo app; avisaremos quando estiver pronto.",
+                "readyTitle": "Exame pronto!",
+                "readyBody": "Seu exame de promoção foi gerado. Você terá 45 minutos para concluí-lo após o início.",
+                "readyCta": "Começar Agora",
+                "expiredTitle": "Exame Expirado",
+                "expiredBody": "O tempo limite para este exame acabou. Por favor, solicite um novo.",
+                "requestError": "Falha ao solicitar o exame.",
+                "loadQuestionsError": "Falha ao carregar as questões da prova.",
+                "startError": "Falha ao iniciar a prova.",
+                "submitError": "Falha ao enviar a prova.",
+                "unknownStatusError": "Falha na geração da prova (status: {status}). Tente novamente."
+            },
+            "timeLimitAlert": "Importante: Você tem 45 minutos para concluir o exame a partir do início."
+        },
+        "result": {
+            "passedTitle": "Você Passou!",
+            "failedTitle": "Continue Praticando",
+            "correctAnswers": "respostas corretas",
+            "advancedTo": "Avançou para o nível {newLevel} ✓",
+            "failedBody": "Próxima tentativa disponível em 47 horas e 30 minutos.",
+            "backHome": "Voltar ao início"
+        },
+        "locked": {
+            "title": "Promoção já realizada",
+            "body": "Você já completou sua promoção de nível. Usuários do plano gratuito têm direito a uma promoção.",
+            "backHome": "Voltar ao início"
+        }
+    },
+    "settings": {
+        "title": "Configurações",
+        "profile": "Perfil",
+        "name": "Nome",
+        "email": "E-mail",
+        "level": "Nível",
+        "dangerZone": "Zona de perigo",
+        "deleteAccount": "Excluir conta",
+        "deleteWarning": "Esta ação é permanente e não pode ser desfeita. Todos os seus dados serão removidos.",
+        "deleteConfirmLabel": "Digite sua senha para confirmar",
+        "deleteConfirmCta": "Excluir minha conta",
+        "deleting": "Excluindo...",
+        "deleteCancel": "Cancelar"
+    },
+    "interview": {
+        "title": "Entrevista de Emprego",
+        "card": {
+            "subtitle": "Simulação de entrevista",
+            "title": "Pratique sua fluência profissional com um entrevistador de IA",
+            "description": "Envie seu currículo · perguntas reais · feedback com vocabulário técnico",
+            "cta": "Iniciar sessão"
+        },
+        "setup": {
+            "title": "Simulação de <highlighted>Entrevista</highlighted>",
+            "text": "Pratique seu inglês em um cenário real de entrevista de emprego.",
+            "clickToUpload": "Clique para enviar seu currículo",
+            "change": "Alterar",
+            "extractingText": "Extraindo texto...",
+            "resumeTitle": "Currículo <optional>(opcional — PDF ou .txt, máx. 5 MB)</optional>",
+            "resumePlaceholder": "Clique para enviar seu currículo",
+            "resumeText": "Sem um currículo, a entrevista será baseada em perguntas gerais para o cargo escolhido.",
+            "resumePrivacy": "Fique tranquilo — seu currículo não é salvo. O texto é usado apenas durante esta sessão e descartado em seguida.",
+            "targetLabel": "Cargo pretendido",
+            "cta": "Começar Entrevista",
+            "selectRole": "Selecione uma função.",
+            "describeRole": "Descreva a função."
+        },
+        "target": {
+            "technology": {
+                "title": "Tecnologia",
+                "label": "Tecnologia / Engenharia"
+            },
+            "marketing": {
+                "title": "Marketing",
+                "label": "Marketing e Comunicação"
+            },
+            "finance": {
+                "title": "Finanças",
+                "label": "Finanças e Contabilidade"
+            },
+            "healthcare": {
+                "title": "Saúde",
+                "label": "Saúde e Medicina"
+            },
+            "education": {
+                "title": "Educação",
+                "label": "Educação e Treinamento"
+            },
+            "sales": {
+                "title": "Vendas",
+                "label": "Vendas e Desenvolvimento de Negócios"
+            },
+            "other": {
+                "title": "Outro",
+                "placeholder": "Ex: Product Manager, Data Analyst...",
+                "label": "Outro"
+            }
+        },
+        "debrief": {
+            "fluencyNotes": "Notas de Fluência",
+            "strengths": "Pontos Fortes",
+            "profVocabulary": "Vocabulário Profissional",
+            "saveVocabulary": "Salvar vocabulário para revisão",
+            "terms": "termos",
+            "example": "Exemplo:",
+            "saveVocabularyText": "{n} termos · aparecerão na sua revisão SRS de amanhã",
+            "saveAll": "Salvar tudo",
+            "saving": "Salvando...",
+            "saved": "Salvo",
+            "consider": "Considere ajustar:",
+            "improvementAreas": "O que pode melhorar",
+            "loadError": "Não foi possível carregar o debrief. Tente novamente.",
+            "generating": "Gerando seu debrief…"
+        }
+    },
+    "topics": {
+        "present-simple": {
+            "title": "Present Simple",
+            "description": "Hábitos, fatos e estados permanentes."
+        },
+        "present-continuous": {
+            "title": "Present Continuous",
+            "description": "Ações que acontecem agora."
+        },
+        "articles": {
+            "title": "Artigos (a, an, the)",
+            "description": "Quando usar (ou não) os artigos."
+        },
+        "prepositions-time-place": {
+            "title": "Preposições de tempo e lugar",
+            "description": "Uso de in, on, at e mais."
+        },
+        "past-simple": {
+            "title": "Past Simple",
+            "description": "Ações concluídas no passado."
+        },
+        "just-yet-already": {
+            "title": "just, yet, already e still",
+            "description": "Quatro advérbios que precisam o Present Perfect."
+        },
+        "past-continuous": {
+            "title": "Past Continuous",
+            "description": "Ações contínuas no passado e contrastes."
+        },
+        "past-perfect": {
+            "title": "Past Perfect",
+            "description": "Ações concluídas antes de outro evento passado."
+        },
+        "future-will-going-to": {
+            "title": "Futuro: Will vs Going to",
+            "description": "As duas formas principais de falar do futuro."
+        },
+        "modals-core": {
+            "title": "Verbos Modais Essenciais",
+            "description": "Can, should, must, might — obrigação, possibilidade e conselhos."
+        },
+        "present-perfect": {
+            "title": "Present Perfect",
+            "description": "A conexão entre o passado e o presente."
+        },
+        "present-perfect-vs-past-simple": {
+            "title": "Present Perfect vs Past Simple",
+            "description": "Quando usar cada tempo — o contraste mais difícil para falantes de PT/ES."
+        },
+        "present-perfect-continuous": {
+            "title": "Present Perfect Continuous",
+            "description": "Ações que começaram no passado e continuam."
+        },
+        "gerund-vs-infinitive": {
+            "title": "Gerúndio vs Infinitivo",
+            "description": "Quais verbos pedem -ing e quais pedem to + verbo."
+        },
+        "phrasal-verbs-high-frequency": {
+            "title": "Phrasal Verbs Mais Comuns",
+            "description": "Os 30 phrasal verbs mais frequentes: come up, take on, pick up, turn off e mais."
+        },
+        "phrasal-verbs": {
+            "title": "Phrasal Verbs",
+            "description": "Verbos compostos usados no dia a dia."
+        },
+        "reported-speech": {
+            "title": "Reported Speech",
+            "description": "Discurso indireto: como relatar falas, perguntas e ordens."
+        },
+        "passives": {
+            "title": "Voz Passiva",
+            "description": "Estruturas passivas e modais passivos."
+        },
+        "conditionals-real": {
+            "title": "Conditionals Reais (Zero e 1°)",
+            "description": "Zero conditional para fatos; primeiro condicional para situações possíveis."
+        },
+        "conditionals": {
+            "title": "Conditionals Hipotéticos (2°, 3° e Misto)",
+            "description": "Frases com \"if\" para situações irreais e contrafactuais."
+        },
+        "strong-adjectives": {
+            "title": "Adjetivos de Base vs Fortes",
+            "description": "Como intensificar adjetivos de forma natural."
+        },
+        "connectors-b1": {
+            "title": "Conectores e Linkers",
+            "description": "However, although, despite — como ligar suas ideias."
+        },
+        "collocations-b2": {
+            "title": "Collocations Comuns",
+            "description": "Combinações naturais de palavras como 'make a decision'."
+        },
+        "articles-zero-b2": {
+            "title": "Artigo Zero e Uso Avançado",
+            "description": "Quando NÃO usar artigos: refeições, esportes e substantivos abstratos."
+        },
+        "discourse-markers-c1": {
+            "title": "Marcadores de Discurso",
+            "description": "Admittedly, notwithstanding — coesão avançada para nível C1."
+        },
+        "situation-greetings-a1": {
+            "title": "Saudações e Apresentações",
+            "description": "Hello, nice to meet you — suas primeiras conversas."
+        },
+        "situation-airport": {
+            "title": "No Aeroporto",
+            "description": "Check-in, segurança, imigração e conexões."
+        },
+        "situation-small-talk": {
+            "title": "Papo Furado (Small Talk)",
+            "description": "Conversas rápidas com colegas, vizinhos e atendentes."
+        },
+        "situation-restaurant": {
+            "title": "No Restaurante",
+            "description": "Reservar mesa, pedir comida e pagar a conta."
+        },
+        "situation-business-meeting": {
+            "title": "Reuniões de Negócios",
+            "description": "Apresentar-se, opinar e discordar com profissionalismo."
+        }
+    },
+    "writingPrompts": {
+        "weekend-email": "E-mail descrevendo seu fim de semana",
+        "pros-cons-remote-work": "Prós e contras do trabalho remoto",
+        "product-review": "Resenha de um produto",
+        "formal-complaint": "Carta formal de reclamação",
+        "opinion-ai-education": "Opinião: IA na educação",
+        "academic-argument-c1": "Argumentação acadêmica (C1)",
+        "critical-review-c1": "Crítica literária/cinematográfica (C1)"
+    },
+    "dateLocale": "pt-BR",
+    "errors": {
+        "INVALID_EMAIL": "Endereço de email inválido.",
+        "PASSWORD_TOO_SHORT": "A senha precisa ter pelo menos 8 caracteres.",
+        "NAME_REQUIRED": "Nome é obrigatório.",
+        "EMAIL_ALREADY_EXISTS": "Já existe uma conta com esse email.",
+        "INVALID_CREDENTIALS": "Email ou senha incorretos.",
+        "TOPIC_NOT_FOUND": "Tópico não encontrado.",
+        "MESSAGE_EMPTY": "A mensagem não pode estar vazia.",
+        "SESSION_NOT_FOUND": "Sessão não encontrada ou expirada.",
+        "SESSION_FORBIDDEN": "Esta sessão não pertence à sua conta.",
+        "INTERVIEW_ALREADY_ENDED": "Esta entrevista já foi encerrada.",
+        "INTERVIEW_NOT_FINISHED": "Esta entrevista ainda não foi encerrada.",
+        "FILE_TYPE_NOT_ALLOWED": "Apenas arquivos PDF e .txt são aceitos.",
+        "NO_FILE_UPLOADED": "Nenhum arquivo foi enviado.",
+        "FILE_PARSE_FAILED": "Não foi possível extrair o texto do arquivo enviado.",
+        "ONBOARDING_INVALID_ANSWERS": "Número inválido de respostas.",
+        "ONBOARDING_FAILED": "Não foi possível processar seu nivelamento agora. Tente novamente.",
+        "LANGUAGE_NOT_SUPPORTED": "Idioma não suportado.",
+        "REVIEW_CARD_NOT_FOUND": "Card de revisão não encontrado.",
+        "REVIEW_CARD_FORBIDDEN": "Este card não pertence à sua conta.",
+        "REVIEW_GRADE_INVALID": "Informe quality (0–5) ou remembered (verdadeiro/falso).",
+        "DICTOGLOSS_INVALID_ANSWERS": "Não foi possível avaliar suas respostas de dictogloss.",
+        "NOT_ELIGIBLE": "Você não está elegível para fazer a prova agora.",
+        "EXAM_NOT_FOUND": "Prova não encontrada.",
+        "EXAM_EXPIRED": "Esta prova expirou. Solicite uma nova.",
+        "EXAM_NOT_READY": "A prova ainda não está pronta.",
+        "EXAM_ALREADY_SUBMITTED": "Esta prova já foi submetida.",
+        "EXAM_TIME_EXPIRED": "O tempo da prova expirou.",
+        "WRITING_PROMPT_NOT_FOUND": "Prompt desconhecido.",
+        "WRITING_TEXT_TOO_SHORT": "Texto muito curto — escreva pelo menos 20 caracteres.",
+        "WRITING_TEXT_TOO_LONG": "Texto longo demais — limite de 4000 caracteres.",
+        "WRITING_EVAL_FAILED": "Falha ao avaliar. Tente novamente em alguns segundos.",
+        "AI_HIGH_DEMAND": "O serviço de IA está com alta demanda. Tente novamente em instantes.",
+        "AI_NO_PROVIDERS": "O serviço de IA está indisponível.",
+        "CONNECTION_ERROR": "Não foi possível conectar ao servidor.",
+        "CHAT_SEND_FAILED": "Não foi possível enviar sua mensagem agora. Tente novamente.",
+        "UNKNOWN_ERROR": "Ocorreu um erro inesperado.",
+        "INTERNAL_ERROR": "Erro interno do servidor.",
+        "EMAIL_NOT_VERIFIED": "Confirme seu e-mail antes de continuar.",
+        "VERIFICATION_CODE_INVALID": "Código inválido. Tente novamente.",
+        "VERIFICATION_CODE_EXPIRED": "Código expirado. Solicite um novo.",
+        "TOPIC_LIMIT_REACHED": "Você atingiu o limite de tópicos. Complete o tópico atual primeiro.",
+        "WRITING_DAILY_LIMIT": "Você já fez seu writing hoje. Volte amanhã!",
+        "INTERVIEW_DAILY_LIMIT": "Você já fez sua entrevista hoje. Volte amanhã!",
+        "PROMOTION_LIMIT_REACHED": "Você já realizou sua promoção de nível."
+    }
+}

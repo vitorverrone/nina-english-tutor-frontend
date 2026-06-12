@@ -1,0 +1,629 @@
+{
+    "navbar": {
+        "subtitle": "Nina · AI Tutor",
+        "navHome": "Home",
+        "navInterview": "Interview",
+        "navWriting": "Writing",
+        "navCulture": "Culture",
+        "navDictogloss": "Dictogloss",
+        "openMenu": "Open menu",
+        "closeMenu": "Close menu",
+        "logout": "Log out",
+        "loggingOut": "Logging out...",
+        "navSettings": "Settings"
+    },
+    "common": {
+        "back": "Back to home",
+        "greeting": "Hello, {name}",
+        "appTitle": "English Tutor",
+        "appDescription": "Your AI-powered language companion",
+        "tapToContinue": "Tap a card to continue",
+        "minutes": "minutes",
+        "topicLockedHint": "Complete your current topic first"
+    },
+    "home": {
+        "streak": "Streak",
+        "keepStreak": "Keep the streak alive!",
+        "streakHint": "Daily Streak",
+        "topicsCompleted": "Topics Done",
+        "reviewToday": "Reviews Due",
+        "activeVocab": "Active Vocab",
+        "continueWhere": "Continue where you left off",
+        "recurringErrors": "Recurring errors",
+        "recentCultural": "Recent cultural notes",
+        "seeAll": "See all",
+        "suggestedTopics": "Suggested topics",
+        "focusPicker": {
+            "label": "Today's focus",
+            "hint": "Topics shown below will match your selected goal"
+        },
+        "status": {
+            "not_started": "Not started",
+            "in_progress": "In progress",
+            "completed": "Completed"
+        },
+        "errorCategory": {
+            "subject-verb agreement": "Agreement",
+            "verb tense": "Tense",
+            "tense": "Tense",
+            "agreement": "Agreement",
+            "preposition": "Preposition",
+            "article": "Article",
+            "word_order": "Word order",
+            "vocab": "Vocab",
+            "spelling": "Spelling",
+            "pronunciation": "Pronunciation",
+            "listening": "Listening",
+            "other": "Others"
+        }
+    },
+    "chat": {
+        "preparing": "Preparing...",
+        "focusBadge": "Focus",
+        "you": "You",
+        "nina": "Nina",
+        "typing": "Nina is typing...",
+        "errorPrefix": "Erro",
+        "completedTitle": "Topic completed!",
+        "completedBody": "You have mastered this session. Go back to the home page to choose the next topic or review what you practiced.",
+        "placeholder": "Type your answer...",
+        "placeholderCompleted": "Lesson completed",
+        "send": "Send",
+        "in_characterLabel": "🎭 In Character",
+        "coachLabel": "Nina coach",
+        "culturalLabel": "🌍 Cultural Note",
+        "drillLabel": "Practice",
+        "drillSend": "Send",
+        "drillPlaceholder": "your answer",
+        "reference": {
+            "openButton": "See reference",
+            "closeButton": "Close reference",
+            "grammar": {
+                "title": "Grammar",
+                "name": "Structure",
+                "whatItIs": "What is it",
+                "formula": "Formula",
+                "example": "Example"
+            },
+            "situational": {
+                "title": "Situational",
+                "contextLabel": "Context",
+                "phrase": "Phrase",
+                "function": "Function",
+                "whenToUse": "When To Use",
+                "example": "Example",
+                "miniExchangeLabel": "Change example",
+                "roleYou": "You",
+                "roleOther": "Interlocutor"
+            }
+        }
+    },
+    "review": {
+        "title": "Review Session",
+        "subtitle": "Cards with SM-2 algorithm: the rating you give adjusts the interval until your next review.",
+        "allDoneTitle": "Session complete",
+        "allDoneText": "You reviewed {n} flashcards today. Keep practicing daily to solidify your vocabulary and correct your mistakes",
+        "noCardsTitle": "No cards to review",
+        "noCardsText": "Continue talking to Nina to generate new vocabulary and grammar error cards.",
+        "progress": "{done} / {total}",
+        "reviews": "review",
+        "vocabEyebrow": "Vocab",
+        "translationLabel": "Meaning / Translation",
+        "exampleLabel": "Example sentence",
+        "vocabHint": "Try to remember the meaning",
+        "errorEyebrow": "Error · {category}",
+        "youWrote": "You wrote:",
+        "correctForm": "Correction",
+        "howDidYouDo": "How did you do?",
+        "ruleLabel": "Rule",
+        "reveal": "Reveal Answer",
+        "grades": {
+            "forgot": {
+                "label": "Forgot",
+                "sublabel": "I will try tomorrow"
+            },
+            "hard": {
+                "label": "Hard",
+                "sublabel": "with effort"
+            },
+            "good": {
+                "label": "Good",
+                "sublabel": "I remembered"
+            },
+            "easy": {
+                "label": "Easy",
+                "sublabel": "Right away"
+            }
+        },
+        "fillInPrompt": "Can you correct this sentence?",
+        "fillInPlaceholder": "Type the corrected sentence...",
+        "fillInCheck": "Check",
+        "fillInNext": "Next card",
+        "fillInResultExact": "Perfect! Exact match.",
+        "fillInResultPartial": "Almost there! Good attempt.",
+        "fillInResultWrong": "Incorrect. Study the correction."
+    },
+    "writing": {
+        "card": {
+            "title": "Writing",
+            "subtitle": "Practice with IELTS-style prompts and get rubric feedback",
+            "text": "Open workspace"
+        },
+        "title": "Writing Practice",
+        "subtitle": "Practice with IELTS-style prompts and get rubric feedback",
+        "noPrompts": "No prompts configured on the server.",
+        "selectValue": "Select a prompt",
+        "promptLabel": "Prompt",
+        "taskLabel": "Statement",
+        "textLabel": "Your text (in English)",
+        "textPlaceholder": "Write in English...",
+        "tooShort": "Write at least 20 characters.",
+        "submit": "Submit for evaluation",
+        "submitting": "Evaluating...",
+        "wordsAndChars": "{words} words · {chars} characters",
+        "previousTitle": "Previous submissions",
+        "nothingYet": "Nothing submitted yet. Write above to see the rubric here.",
+        "overall": "Overall",
+        "feedback": "Feedback",
+        "revisedNative": "Revised version",
+        "viewOriginal": "See my original text",
+        "rubricTask": "Task",
+        "rubricGrammar": "Grammar",
+        "rubricVocab": "Vocabulary",
+        "rubricCohesion": "Cohesion"
+    },
+    "dictogloss": {
+        "card": {
+            "title": "Dictogloss",
+            "subtitle": "Daily listening-to-writing drill",
+            "text": "Start today's session"
+        },
+        "title": "Dictogloss",
+        "subtitle": "Listen to 5 sentences, rewrite them, and get instant word-level diff feedback.",
+        "instructions": "Use the audio, then rewrite each sentence from memory. You can replay each sentence as needed.",
+        "playAll": "Play all 5",
+        "sentence": "Sentence {n}",
+        "listenAgain": "Listen again",
+        "answerPlaceholder": "Rewrite the sentence in English...",
+        "submit": "Check my answers",
+        "checking": "Checking...",
+        "score": "Overall accuracy: {score}%",
+        "referenceLabel": "Reference",
+        "loadError": "Could not load today's dictogloss. Please try again.",
+        "genericError": "Could not evaluate your answers right now.",
+        "generateButton": "Generate today's session",
+        "generating": "Generating sentences...",
+        "generateError": "Could not generate the session. Please try again.",
+        "alreadyDone": "You've already completed today's dictogloss. Come back tomorrow!"
+    },
+    "cultural": {
+        "card": {
+            "title": "Culture",
+            "subtitle": "Explore cultural notes extracted from your chat sessions",
+            "text": "See all notes"
+        },
+        "title": "Cultural Notes",
+        "description": "Words, phrases and habits that reveal how English speakers think and communicate.",
+        "emptyTitle": "No cultural notes yet",
+        "emptyText": "No notes have been recorded yet. They appear here as you practice and Nina highlights cultural differences.",
+        "tagLabel": {
+            "us_vs_uk": "US vs UK",
+            "register": "Register",
+            "politeness": "Politeness",
+            "custom": "Custom",
+            "idiom": "Idiom",
+            "other": "Others"
+        }
+    },
+    "onboarding": {
+        "welcome": "Welcome to English Tutor",
+        "chooseLanguage": "Choose your native language or the language you prefer to get started.",
+        "testTitle": "Quick placement test",
+        "intro": "A few questions to find your English level.",
+        "questionLabel": "{a} of {b}",
+        "textPlaceholder": "Type your answer in English...",
+        "fillPlaceholder": "Complete the sentence:",
+        "choosePlaceholder": "Choose the correct form:",
+        "submit": "Submit & Find My Level",
+        "submitError": "Error finishing onboarding.",
+        "submitting": "Finding your level...",
+        "cefrLabel": "Placement completed",
+        "focusLabel": "Focus Areas",
+        "cta": "Start Learning",
+        "goalStep": {
+            "title": "What's your English goal?",
+            "intro": "Choose the area you'd like to focus on.",
+            "options": {
+                "conversation": {
+                    "title": "Conversation",
+                    "text": "Practice everyday dialogues"
+                },
+                "grammar": {
+                    "title": "Grammar",
+                    "text": "Master rules and structures"
+                },
+                "vocabulary": {
+                    "title": "Vocabulary",
+                    "text": "Expand your word bank"
+                },
+                "exam": {
+                    "title": "Exam Prep",
+                    "text": "Prepare for IELTS, TOEFL & more"
+                },
+                "professional": {
+                    "title": "Professional",
+                    "text": "Business English & workplace skills"
+                }
+            }
+        }
+    },
+    "auth": {
+        "emailLabel": "Email address",
+        "passwordLabel": "Password",
+        "nameLabel": "Full name",
+        "login": {
+            "title": "Welcome back",
+            "subtitle": "Sign in to continue your progress",
+            "forgot": "Forgot your password?",
+            "submit": "Sign In",
+            "submitting": "Signing in",
+            "switchQuestion": "New to English Tutor?",
+            "switchCta": "Create an account"
+        },
+        "signup": {
+            "title": "Create your account",
+            "subtitle": "Join thousands of English learners",
+            "submit": "Create Account",
+            "submitting": "Creating Account...",
+            "switchQuestion": "Already have an account?",
+            "switchCta": "Sign in"
+        },
+        "verify": {
+            "title": "Verify your email",
+            "subtitle": "Enter the 6-digit code we sent to your email.",
+            "subtitleEmail": "Enter the 6-digit code sent to {email}.",
+            "codeLabel": "Verification code",
+            "submit": "Verify",
+            "submitting": "Verifying...",
+            "resend": "Resend code",
+            "resendLoading": "Sending...",
+            "resendIn": "Resend in {seconds}s",
+            "resendSent": "New code sent! Check your inbox."
+        }
+    },
+    "promotion": {
+        "card": {
+            "eligibleTag": "Level up available",
+            "eligibleTitle": "You're ready to reach {next} — Take the placement exam",
+            "perfReadyTag": "Your recent performance confirms it",
+            "perfReadyTitle": "You're ready for {next} — Take the promotion exam"
+        },
+        "exam": {
+            "title": "Prove your {target} readiness with a timed 30/40-question exam.",
+            "intro": "Level Up Exam",
+            "initializingExam": "Starting the exam system...",
+            "error": "Oops, an error occurred",
+            "tryAgain": "Clear and try again",
+            "requestNewExam": "Request new exam",
+            "questionTypes": " Multiple-choice, fill-in-the-blank, reading comprehension",
+            "passThreshold": "Pass threshold",
+            "failMessage": "Failing starts a 48-hour cooldown before your next attempt.",
+            "startCta": "Start Exam",
+            "progress": "Question {current} of {total}",
+            "fillPlaceholder": "Enter the word that completes the sentence",
+            "fillHint": "Just a word.",
+            "previousButton": "Previous",
+            "nextButton": "Next",
+            "reviewButton": "Review responses",
+            "submitButton": "Send exam",
+            "submitting": "Correcting…",
+            "confirmTitle": "Send now?",
+            "confirmBody": "You answered {answered} out of {total} questions. After submitting, you can't go back.",
+            "confirmCta": "Yes, send",
+            "cancel": "Cancel",
+            "unansweredBadge": "Empty",
+            "keyWordLabel": "Use the word (do not modify it):",
+            "reewriteSentenceLabel": "Rewrite the sentence using the keyword, while maintaining the same meaning",
+            "kindLabel": {
+                "mc_grammar": "Grammar",
+                "cloze": "Complete the sentence",
+                "mc_vocab": "Vocabulary",
+                "reading_comprehension": "Text Interpretation",
+                "sentence_transformation": "Rewriting",
+                "error_identification": "Identify Error",
+                "open_cloze_paragraph": "Complete Paragraph"
+            },
+            "async": {
+                "generatingTitle": "Generating your exam...",
+                "generatingBody": "We're preparing tailored questions for your level. This may take a few seconds. You can browse the application while you wait; we'll let you know when you're ready.",
+                "readyTitle": "Exam ready!",
+                "readyBody": "Your promotion exam has been generated and is ready to start. You have 45 minutes to complete it after the start.",
+                "readyCta": "Start Exam Now",
+                "expiredTitle": "Expired Exam",
+                "expiredBody": "Your exam has expired because the time limit has been reached. Please request a new one.",
+                "requestError": "Failed to request the exam.",
+                "loadQuestionsError": "Failed to load exam questions.",
+                "startError": "Failed to start the exam.",
+                "submitError": "Failed to submit the exam.",
+                "unknownStatusError": "Failed to generate exam (status: {status}). Please try again."
+            },
+            "timeLimitAlert": "Important: You have 45 minutes to complete the exam from the moment you start it."
+        },
+        "result": {
+            "passedTitle": "You Passed!",
+            "failedTitle": "Keep Practicing",
+            "correctAnswers": "correct answers",
+            "advancedTo": "Advanced to {newLevel} ✓",
+            "failedBody": "Next attempt available in 47 hours 30 minutes.",
+            "backHome": "Return home"
+        },
+        "locked": {
+            "title": "Promotion already completed",
+            "body": "You have already completed your level promotion. Free plan users are entitled to one promotion.",
+            "backHome": "Return home"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "profile": "Profile",
+        "name": "Name",
+        "email": "Email",
+        "level": "Level",
+        "dangerZone": "Danger zone",
+        "deleteAccount": "Delete account",
+        "deleteWarning": "This action is permanent and cannot be undone. All your data will be removed.",
+        "deleteConfirmLabel": "Enter your password to confirm",
+        "deleteConfirmCta": "Delete my account",
+        "deleting": "Deleting...",
+        "deleteCancel": "Cancel"
+    },
+    "interview": {
+        "title": "Job Interview",
+        "card": {
+            "subtitle": "Job interview simulation",
+            "title": "Practice professional fluency with an AI interviewer",
+            "description": "Upload your résumé · real interview questions · debrief with vocabulary",
+            "cta": "Start session"
+        },
+        "setup": {
+            "title": "Job Interview <highlighted>Simulation</highlighted>",
+            "text": "Practice your English in a realistic job interview.",
+            "clickToUpload": "Click to upload your résumé",
+            "change": "Change",
+            "extractingText": "Extracting text…",
+            "resumeTitle": "Résumé <optional>(optional — PDF or .txt, max 5 MB)</optional>",
+            "resumePlaceholder": "Click to upload your résumé",
+            "resumeText": "Without a résumé, the interview will be general for the selected role.",
+            "resumePrivacy": "Rest assured — your résumé is not saved. The text is used only during this session and discarded afterwards.",
+            "targetLabel": "Target role",
+            "cta": "Start Interview",
+            "selectRole": "Please select a job role.",
+            "describeRole": "Please describe the role."
+        },
+        "target": {
+            "technology": {
+                "title": "Technology",
+                "label": "Technology / Engineering"
+            },
+            "marketing": {
+                "title": "Marketing",
+                "label": "Marketing & Communications"
+            },
+            "finance": {
+                "title": "Finance",
+                "label": "Finance & Accounting"
+            },
+            "healthcare": {
+                "title": "Healthcare",
+                "label": "Healthcare & Medicine"
+            },
+            "education": {
+                "title": "Education",
+                "label": "Education & Training"
+            },
+            "sales": {
+                "title": "Sales",
+                "label": "Sales & Business Development"
+            },
+            "other": {
+                "title": "Other",
+                "placeholder": "e.g. Product Manager, Data Analyst…",
+                "label": "Other"
+            }
+        },
+        "debrief": {
+            "fluencyNotes": "Fluency Notes",
+            "strengths": "Strengths",
+            "profVocabulary": "Professional Vocabulary",
+            "saveVocabulary": "Save vocabulary to your review deck",
+            "terms": "terms",
+            "example": "Example:",
+            "saveVocabularyText": "{n} terms · will appear in tomorrow's SRS session",
+            "saveAll": "Save all",
+            "saving": "Saving…",
+            "saved": "Saved",
+            "consider": "Consider:",
+            "improvementAreas": "Improvement Areas",
+            "loadError": "Could not load debrief. Please try again.",
+            "generating": "Generating your debrief…"
+        }
+    },
+    "topics": {
+        "present-simple": {
+            "title": "Present Simple",
+            "description": "Habits, facts and stable states."
+        },
+        "present-continuous": {
+            "title": "Present Continuous",
+            "description": "Actions happening now."
+        },
+        "articles": {
+            "title": "Articles (a, an, the)",
+            "description": "When to use (or not) the articles."
+        },
+        "prepositions-time-place": {
+            "title": "Prepositions of time and place",
+            "description": "in, on, at, and more."
+        },
+        "past-simple": {
+            "title": "Past Simple",
+            "description": "Actions completed in the past."
+        },
+        "just-yet-already": {
+            "title": "just, yet, already and still",
+            "description": "Four adverbs that sharpen the Present Perfect."
+        },
+        "past-continuous": {
+            "title": "Past Continuous",
+            "description": "Ongoing actions in the past; contrast to Past Simple."
+        },
+        "past-perfect": {
+            "title": "Past Perfect",
+            "description": "Action completed before another past event."
+        },
+        "future-will-going-to": {
+            "title": "Future: Will vs Going to",
+            "description": "Two ways of talking about the future."
+        },
+        "modals-core": {
+            "title": "Essential modals",
+            "description": "can, could, should, must, have to, might — obligation, possibility, advice."
+        },
+        "present-perfect": {
+            "title": "Present Perfect",
+            "description": "Link between past and present."
+        },
+        "present-perfect-vs-past-simple": {
+            "title": "Present Perfect vs Past Simple",
+            "description": "When each tense is required — the most common contrast for PT/ES speakers."
+        },
+        "present-perfect-continuous": {
+            "title": "Present Perfect Continuous",
+            "description": "Ongoing actions that began in the past and still continue; contrast to Present Perfect."
+        },
+        "gerund-vs-infinitive": {
+            "title": "Gerund vs Infinitive",
+            "description": "Which verbs ask for -ing and which ask for to + V."
+        },
+        "phrasal-verbs-high-frequency": {
+            "title": "High-Frequency Phrasal Verbs",
+            "description": "The 30 most common phrasal verbs: come up, take on, pick up, turn off and more."
+        },
+        "phrasal-verbs": {
+            "title": "Phrasal Verbs",
+            "description": "Everyday compound verbs."
+        },
+        "reported-speech": {
+            "title": "Reported Speech",
+            "description": "Indirect speech: backshift, questions and orders."
+        },
+        "passives": {
+            "title": "Passive voice",
+            "description": "Passive voice and modal passive."
+        },
+        "conditionals-real": {
+            "title": "Real Conditionals (Zero & First)",
+            "description": "Zero conditional for facts; first conditional for real, likely situations."
+        },
+        "conditionals": {
+            "title": "Unreal Conditionals (2nd, 3rd & Mixed)",
+            "description": "Hypothetical and counterfactual \"if\" clauses."
+        },
+        "strong-adjectives": {
+            "title": "Base vs strong adjectives",
+            "description": "Combining adverbs with the right kind of adjective."
+        },
+        "connectors-b1": {
+            "title": "Connectors and linking words",
+            "description": "however, although, despite, in addition, as a result — when to use each one."
+        },
+        "collocations-b2": {
+            "title": "Common Collocations",
+            "description": "make a decision, do your best, take a risk — natural-sounding word combinations."
+        },
+        "articles-zero-b2": {
+            "title": "Zero article and advanced article usage",
+            "description": "When NOT to use the article: meals, sports, languages, abstract nouns in general."
+        },
+        "discourse-markers-c1": {
+            "title": "Discourse markers",
+            "description": "admittedly, notwithstanding, with that said — advanced cohesion for C1."
+        },
+        "situation-greetings-a1": {
+            "title": "Greetings and presentations",
+            "description": "Hello, how are you, nice to meet you — first conversations in English."
+        },
+        "situation-airport": {
+            "title": "At the airport",
+            "description": "Check-in, security, immigration, missed connections."
+        },
+        "situation-small-talk": {
+            "title": "Everyday small talk",
+            "description": "Quick conversations with colleagues, neighbors, baristas."
+        },
+        "situation-restaurant": {
+            "title": "In the restaurant",
+            "description": "Reserve a table, order food, handle issues, pay the bill."
+        },
+        "situation-business-meeting": {
+            "title": "Business meeting",
+            "description": "Present yourself, give an opinion, disagree without friction, make decisions."
+        }
+    },
+    "writingPrompts": {
+        "weekend-email": "Email describing your weekend",
+        "pros-cons-remote-work": "Pros and Cons of Remote Work",
+        "product-review": "Product Review",
+        "formal-complaint": "Formal letter of complaint",
+        "opinion-ai-education": "Opinion: AI in education",
+        "academic-argument-c1": "Academic argument (C1)",
+        "critical-review-c1": "Critical review (C1)"
+    },
+    "dateLocale": "en-US",
+    "errors": {
+        "INVALID_EMAIL": "Invalid email address.",
+        "PASSWORD_TOO_SHORT": "Password must be at least 8 characters.",
+        "NAME_REQUIRED": "Name is required.",
+        "EMAIL_ALREADY_EXISTS": "An account with this email already exists.",
+        "INVALID_CREDENTIALS": "Invalid email or password.",
+        "TOPIC_NOT_FOUND": "Topic not found.",
+        "MESSAGE_EMPTY": "Message cannot be empty.",
+        "SESSION_NOT_FOUND": "Session not found or expired.",
+        "SESSION_FORBIDDEN": "This session does not belong to your account.",
+        "INTERVIEW_ALREADY_ENDED": "This interview has already ended.",
+        "INTERVIEW_NOT_FINISHED": "This interview is not finished yet.",
+        "FILE_TYPE_NOT_ALLOWED": "Only PDF and .txt files are accepted.",
+        "NO_FILE_UPLOADED": "No file uploaded.",
+        "FILE_PARSE_FAILED": "Could not extract text from the uploaded file.",
+        "ONBOARDING_INVALID_ANSWERS": "Invalid number of answers.",
+        "ONBOARDING_FAILED": "Could not process your placement right now. Please try again.",
+        "LANGUAGE_NOT_SUPPORTED": "Language not supported.",
+        "REVIEW_CARD_NOT_FOUND": "Review card not found.",
+        "REVIEW_CARD_FORBIDDEN": "This card does not belong to your account.",
+        "REVIEW_GRADE_INVALID": "Provide a quality score (0–5) or remembered (true/false).",
+        "DICTOGLOSS_INVALID_ANSWERS": "Could not evaluate your dictogloss answers.",
+        "NOT_ELIGIBLE": "You are not eligible for the exam right now.",
+        "EXAM_NOT_FOUND": "Exam not found.",
+        "EXAM_EXPIRED": "This exam has expired. Please request a new one.",
+        "EXAM_NOT_READY": "Exam is not ready yet.",
+        "EXAM_ALREADY_SUBMITTED": "This exam has already been submitted.",
+        "EXAM_TIME_EXPIRED": "Exam time has expired.",
+        "WRITING_PROMPT_NOT_FOUND": "Unknown writing prompt.",
+        "WRITING_TEXT_TOO_SHORT": "Text too short — write at least 20 characters.",
+        "WRITING_TEXT_TOO_LONG": "Text too long — limit is 4000 characters.",
+        "WRITING_EVAL_FAILED": "Evaluation failed. Please try again in a few seconds.",
+        "AI_HIGH_DEMAND": "AI service is busy. Please try again in a moment.",
+        "AI_NO_PROVIDERS": "AI service is unavailable.",
+        "CONNECTION_ERROR": "Could not connect to the server.",
+        "CHAT_SEND_FAILED": "Could not send your message right now. Please try again.",
+        "UNKNOWN_ERROR": "An unexpected error occurred.",
+        "INTERNAL_ERROR": "Internal server error.",
+        "EMAIL_NOT_VERIFIED": "Please verify your email before continuing.",
+        "VERIFICATION_CODE_INVALID": "Invalid code. Please try again.",
+        "VERIFICATION_CODE_EXPIRED": "Code expired. Please request a new one.",
+        "TOPIC_LIMIT_REACHED": "Complete your current topic before choosing another.",
+        "WRITING_DAILY_LIMIT": "You've already done your writing for today. Come back tomorrow!",
+        "INTERVIEW_DAILY_LIMIT": "You've already done your interview for today. Come back tomorrow!",
+        "PROMOTION_LIMIT_REACHED": "You have already completed your level promotion."
+    }
+}

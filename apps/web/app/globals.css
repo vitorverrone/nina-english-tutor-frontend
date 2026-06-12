@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #f1e6d7;
+    --primary: 199 89% 38%;
+    --cadet-blue: 210, 22%, 42%;
+    --pale-blue: 210, 31%, 87%;
+    --alice-blue: 204, 100%, 97%;
+    --silver-blue: 209, 23%, 63%;
+    --bluish-gray: 210, 15%, 42%;
+    --blue-grey: 212, 52%, 94%;
+    --dark-indigo: 244, 47%, 20%;
+    --sand: 35, 44%, 85%;
+    --deep-cyan: 189, 100%, 28%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-dm-serif);
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: max(16px, 1em);
+  }
+}
+
+body {
+  background: var(--background);
+  background-attachment: fixed;
+  font-family: var(--font-dm-sans);
+}
+
+* {
+  scrollbar-width: 6px;
+  scrollbar-color: black var(--background);
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: var(--background);
+  border-radius: 5px;
+  padding: 1px;
+}
+
+*::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
